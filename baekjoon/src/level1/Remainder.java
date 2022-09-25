@@ -15,7 +15,7 @@ public class Remainder {
 		int C = Integer.parseInt(data[2]);
 		
 		System.out.println((A + B) % C);
-		System.out.println(((A%C) + (B%C)) % C);
+		System.out.println(((A % C) + (B % C)) % C);
 		System.out.println((A * B) % C);
 		System.out.println(((A % C) * (B % C)) % C);
 	}
