@@ -16,7 +16,7 @@ public class OvenClock {
 		
 		int min = 60 * a + b + c;   // 시 -> 분
  
-        int hour = (min / 60) % 24;
+        int hour = (min / 60) % 24; // 시 (24시 이상이 될 경우 0시부터 시작하도록 한다)
         int minute = min % 60;
  
         System.out.println(hour + " " + minute);
