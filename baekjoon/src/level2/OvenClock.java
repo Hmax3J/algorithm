@@ -14,8 +14,7 @@ public class OvenClock {
 		int b = Integer.parseInt(data[1]);	
 		int c = sc.nextInt();
 		
-		int min = 60 * a + b;   // 시 -> 분
-        min += c;
+		int min = 60 * a + b + c;   // 시 -> 분
  
         int hour = (min / 60) % 24;
         int minute = min % 60;
