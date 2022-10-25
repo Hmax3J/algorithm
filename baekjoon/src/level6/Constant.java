@@ -15,9 +15,11 @@ public class Constant {
 		b = (b / 100) + ((b % 100) / 10) * 10 + (b % 10) * 100;
 		
 		if(a > b) {
-			System.out.println(a);
+			sb.append(a);
 		} else {
-			System.out.println(b);
+			sb.append(b);
 		}
+		
+		System.out.println(sb);
 	}
 }
