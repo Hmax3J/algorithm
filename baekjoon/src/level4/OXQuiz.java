@@ -27,7 +27,7 @@ public class OXQuiz {
 				}
 				sum += cnt;
 			}
-			sb.append(sum).append('\n');
+			sb.append(sum).append("\n");
 		}
 		System.out.println(sb);
 	}
