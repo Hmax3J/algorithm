@@ -1,5 +1,6 @@
 /baekjoon/bin/
 /.metadata/
 /.idea/
-/baekjoon/.idea/
-/baekjoon/baekjoon.iml
+*/.idea
+*/*.iml
+*/out
