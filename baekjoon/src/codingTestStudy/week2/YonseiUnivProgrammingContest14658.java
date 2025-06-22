@@ -2,7 +2,7 @@ package codingTestStudy.week2;
 
 import java.util.*;
 
-public class YonseiUnivProgrammingContest14568 {
+public class YonseiUnivProgrammingContest14658 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
